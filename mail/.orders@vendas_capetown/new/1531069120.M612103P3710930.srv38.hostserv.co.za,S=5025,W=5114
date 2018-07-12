@@ -1,0 +1,89 @@
+Return-Path: <nelwamondom@gmail.com>
+Delivered-To: orders@vendas.capetown
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id iEBZJMBCQlvSnzgAvsAzXA
+	for <orders@vendas.capetown>; Sun, 08 Jul 2018 18:58:40 +0200
+Return-path: <nelwamondom@gmail.com>
+Envelope-to: orders@vendas.capetown
+Delivery-date: Sun, 08 Jul 2018 18:58:40 +0200
+Received: from se-filter5.mail.hostserv.co.za ([41.185.84.15]:56372)
+	by srv38.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <nelwamondom@gmail.com>)
+	id 1fcD1E-00Fs5l-Ir
+	for orders@vendas.capetown; Sun, 08 Jul 2018 18:58:40 +0200
+Received: from mail-io0-f173.google.com ([209.85.223.173])
+	by se-filter5.mail.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <nelwamondom@gmail.com>)
+	id 1fcD1D-0001wO-1d
+	for orders@vendas.capetown; Sun, 08 Jul 2018 18:58:40 +0200
+Received: by mail-io0-f173.google.com with SMTP id z20-v6so15018545iol.0
+        for <orders@vendas.capetown>; Sun, 08 Jul 2018 09:58:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=m7zAB2fsx+yJfxPGHxX8VCOCg5Q2QUk6DKPzFU1wfks=;
+        b=JrsOu0poBCZihK++F4BU8wvoaXxAaef8CxC/IKJ66IzsCC9LVPpSuOYW70mvP02IxF
+         V+MbEKcTJYgy0ZjJSqgsPfRlWdZKrlgr9Mb2YGagJpmyxPQEPoYLVMHVDZpiIncIZD/p
+         qRTrAOGAkS2zCAV+/GnmKsg9euHLtoDE5lab3zNr+jOm68Giyt1UtUxZ9qxk6e3SD5hb
+         Rm/68DtuQdb58utyjdTsUZCUENN3qlYM97kPxYIUQuT/lZHDKDpULQDa7zIz4PHE+srd
+         rVR2HacB9Gs7UHMaF3HI1zdjivFiAulYuFlWwWKtJB9Q4+g2+y4XoKVCK/HuJTmu2ZMk
+         O98A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=m7zAB2fsx+yJfxPGHxX8VCOCg5Q2QUk6DKPzFU1wfks=;
+        b=XaltNXBG0pa9gDnm9VvbyXAx19DI/Rrv6HthlpneXPDbErHOWMmK4Bl21x8/lQRiFc
+         68DgpeIr6yk2qXwDSBppi6ntN5lJvZYeMnaMn/pTVAFGQZYENlnenWqX+Lmbd9MYrLwk
+         Ta5BG3ngJEtD6Pcgvd1ovH5lzfdQUf8b1VqXPNKAXTghfb5xQE2YKxQXjrCnjr0g17BL
+         FEAA/TgiAToUmyRvSKw+qdz7mnmVRHtdXTGBdiHzlEUFdG8Wlkcn9jZSJDnDqYRnb6Pq
+         cy7CijycvW0lNwusCal4mcucVQuyBMaaeQWlG4JPO9EyoNdoNLIogOqX/cE18g2Lgn9X
+         5qzw==
+X-Gm-Message-State: APt69E34aCYvBsd1U/+Vph1TAkh8wrMUAuGIZyHEoCcuciOeElInwVFD
+	YMmXQYPBjEjHSELfCLHloX/z4lK0lbTYMTLN3gY=
+X-Google-Smtp-Source: AAOMgpfe0ImhkU276krRT3DfrCoRPenCO7js2GVWM/L6GjXNcdkFINwJsuEet3Oewj2UFI+DIWb1PRuJe0geVtBAkHY=
+X-Received: by 2002:a6b:a08a:: with SMTP id j132-v6mr15360772ioe.290.1531069116011;
+ Sun, 08 Jul 2018 09:58:36 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a02:144:0:0:0:0:0 with HTTP; Sun, 8 Jul 2018 09:58:35 -0700 (PDT)
+From: MASE <nelwamondom@gmail.com>
+Date: Sun, 8 Jul 2018 18:58:35 +0200
+Message-ID: <CA+FT-WytxoEbF_9rFOw1pfbosE0LpMxggEaNXq_pALz-hSnoaA@mail.gmail.com>
+Subject: Test mase
+To: orders@vendas.capetown
+Content-Type: multipart/alternative; boundary="000000000000c95a3005707fce09"
+Received-SPF: pass (se-filter5.mail.hostserv.co.za: domain of gmail.com designates 209.85.223.173 as permitted sender) client-ip=209.85.223.173; envelope-from=nelwamondom@gmail.com; helo=mail-io0-f173.google.com;
+X-SPF-Result: se-filter5.mail.hostserv.co.za: domain of gmail.com designates 209.85.223.173 as permitted sender
+Authentication-Results: se-filter5.mail.hostserv.co.za; dmarc=pass header.from=gmail.com
+Authentication-Results:  mail.hostserv.co.za; spf=pass smtp.mailfrom=nelwamondom@gmail.com; dkim=pass header.i=gmail.com
+X-SpamExperts-Class: ham
+X-SpamExperts-Evidence: Combined (0.15)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5heXGUEY33L3SuqRq/B1/dh602E9L7XzfQH6nu9C/Fh9JZ2oUlufyjIr
+ n38u2hmLrzf126LthaByFZTN46nLbt0h4DSTA3E1Sfc4RIwtEfxKXIIGKGQywRMGFiylXswrilts
+ 232BnhoZrixLjtl7xz9kXDmzmpso7pRAHgNVBrx4Qj7g2Ufz7v9r1y+JrA7wGuKVse1sVhWabI0/
+ +PN3sILqEHHQxawioMFnJ5jXX06SFcpcDK2HyCXrLcxmwbhZobdvMcP6SMDCu/ubhxlcUtDwnT7X
+ hSz3sdnRb/W9tipAeSUU0vmIoNIGogyWXTaGmy+4A+HtJ4rYWVOBpSm17Cp/0vT6VC3ffCLXdL6O
+ ZkMKpA3Iu9EJAjsWvQiPvL/Ityi0xaZ4JgszHzjFel7oWqHkWM3M9v0m8Htqqd8nP4eLYjfJ18Dx
+ 4ug54gjUWqasZyr1k1CLsAD/gXukKjMfziukvLbtilQSO/VLn77KeCVbJG/YjAGso2HBZkit1+Ar
+ o3wtXMEar7Nf5BrDPPBGxdu1/epqKDlmFpvh/8Xk9zhNLYxG0axR7xEpzKsyxrpVaAyUCHNUT6Mp
+ C0P4ChJ41Qx0E5y2JwYsHMKhCt8cdSlu9n0jEO6VV2o+OdgR5yLf9YRTW602yRQA5EJXZYVlfSP8
+ ydNkCsIrEw1Q7R/+xsUD3M78EajbmhHVp9DswI/EIX/ChSh6E25RnSid7w6Met/XjO1WqalTkoGk
+ n+sghTz9NfR6CuCtdOyJ58d7n1vgJaaQzvPY46G7bXyxp6qmie8pXW8EKNmH2OsP3l9fxTIKWQTw
+ J0tXCTBb2DzR9hSvzP7JGtXEKjADYm4ySy9DwYkdC16M5rOWbuhDMH4AoULUfqb5R4VemuUI6bcE
+ ARsm0B2SkycRDW8ZLwhOSp8hl2p4GtGbe9WUGqzTI3PTx3qU+pmMVZP37zd2+lo131Yaj46B4X9A
+ QQzIyXVyOZPSGN9Da7PwVeCBxeLtc2TrSEDPMS+4ayUpOtEhdxekWDmK9g==
+X-Report-Abuse-To: spam@se-master.mail.hostserv.co.za
+
+--000000000000c95a3005707fce09
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--000000000000c95a3005707fce09
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><br></div>
+
+--000000000000c95a3005707fce09--

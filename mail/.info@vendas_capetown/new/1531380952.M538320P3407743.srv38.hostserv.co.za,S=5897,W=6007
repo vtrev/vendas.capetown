@@ -1,0 +1,110 @@
+Return-Path: <mnelwamondo@uwc.ac.za>
+Delivered-To: info@vendas.capetown
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id 0PcwG9gER1t//zMAvsAzXA
+	for <info@vendas.capetown>; Thu, 12 Jul 2018 09:35:52 +0200
+Return-path: <mnelwamondo@uwc.ac.za>
+Envelope-to: info@vendas.capetown
+Delivery-date: Thu, 12 Jul 2018 09:35:52 +0200
+Received: from se-filter4.mail.hostserv.co.za ([41.185.84.14]:42014)
+	by srv38.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <mnelwamondo@uwc.ac.za>)
+	id 1fdW8m-00EIzw-DA
+	for info@vendas.capetown; Thu, 12 Jul 2018 09:35:52 +0200
+Received: from mail-lj1-f170.google.com ([209.85.208.170])
+	by se-filter4.mail.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <mnelwamondo@uwc.ac.za>)
+	id 1fdW8c-0001MA-HC
+	for info@vendas.capetown; Thu, 12 Jul 2018 09:35:51 +0200
+Received: by mail-lj1-f170.google.com with SMTP id p10-v6so15849993ljg.2
+        for <info@vendas.capetown>; Thu, 12 Jul 2018 00:35:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=uwc-ac-za.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=vUJ5SjJTB3SBhbrlPxWDR2fn2J5c2QesWqa54jGeuKc=;
+        b=u3XBmPUip/aL5l/zY3fOMt3u6oK8SbpXUi5NYZ9NF5r6lftDeLhSdtdak9cm7bw/pk
+         j3p9zcGBogTiEVhrebAb2E/SKxFNu4n/69epLN11rvMUUFE7zPc3IB0PlSDaCx5TaRvF
+         x00+c/SK6y63F1+jPXC0nl3WDEFl0x8slr+MATJwoBoiEJ17p7UQU0XAUOp+pqA0mrCj
+         2X8Nl32T+GlXRR8ChDrx2sdjkpY7tkRDNLbFxTZr6cKMPEehgl/ThcwmEa0Dqt6PwdIr
+         EtRRDiB0rrYqC8wMQ9Wr4bAlufknvKgX13D5ncqC89HYboR4FZqmWYFFqEy/EicqS6li
+         z3Yg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=vUJ5SjJTB3SBhbrlPxWDR2fn2J5c2QesWqa54jGeuKc=;
+        b=rAPAAVj8gsFluN+rVvTMVi2PeYRb5L2P4B+8n3vohxIP0x4W1QBd3IsIdo8/XU7Z9e
+         SQo+bdSSBntcrmLChGs1FdKvrx2U1kvwiYHLNvuG0GCY5J7JdSxV2BlliUqsIwHIBe+m
+         x8I7UXbelfk08zHonCCGnBQqGE2oXJPW5u6rCEVOdEp1x0xRHp3sonDJJCiskZhByYLs
+         N56lHcHigu7wjab+sGEOULQYXvkldBKjZJGV8cZ01rX8aNqtp6NiVu36+t5R2i6NlS9l
+         63eJZNN3e6pvd13CplsEM6pbATL2rJX9xshsbA54la4EoqWevKaxtNXMunXCJTR42lZE
+         ss/A==
+X-Gm-Message-State: APt69E0rGfsqEYdv5U6pshcBd8Sfkujq0Ms+nWjvMjSXZB+Xn8zZAz6y
+	eQEeEu4ih3oB9R3xhR15iXphXMWK2mBypY36FMpayJ1oo/MRhUPmt+iz042xQLyMPrSMPIAMWxU
+	qol4PCuvN/7TIFFhIgR78ARs=
+X-Google-Smtp-Source: AAOMgpeC5kXhce/s39C6QPj66Fru4xVSarvkVy1tcSlznJb6/uyFQ6/pQXJ5sz6eHdaSoXBdQKjUoeSVwmK/oVwtXmY=
+X-Received: by 2002:a2e:80d3:: with SMTP id r19-v6mr17030864ljg.85.1531380938350;
+ Thu, 12 Jul 2018 00:35:38 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a19:b593:0:0:0:0:0 with HTTP; Thu, 12 Jul 2018 00:35:37
+ -0700 (PDT)
+From: Murendeni Nelwamondo <mnelwamondo@uwc.ac.za>
+Date: Thu, 12 Jul 2018 09:35:37 +0200
+Message-ID: <CAPd0DZzoXMex3jGyE3w6qjh3ggEqj7RSHKaMmVaPRm8fdpX-cQ@mail.gmail.com>
+Subject: Test forward
+To: info@vendas.capetown
+Content-Type: multipart/alternative; boundary="000000000000d8c6210570c868d8"
+Received-SPF: pass (se-filter4.mail.hostserv.co.za: domain of uwc.ac.za designates 209.85.208.170 as permitted sender) client-ip=209.85.208.170; envelope-from=mnelwamondo@uwc.ac.za; helo=mail-lj1-f170.google.com;
+X-SPF-Result: se-filter4.mail.hostserv.co.za: domain of uwc.ac.za designates 209.85.208.170 as permitted sender
+Authentication-Results:  mail.hostserv.co.za; spf=pass smtp.mailfrom=mnelwamondo@uwc.ac.za; dkim=pass header.i=uwc-ac-za.20150623.gappssmtp.com
+X-SpamExperts-Class: ham
+X-SpamExperts-Evidence: Combined (0.15)
+X-Recommended-Action: accept
+X-Filter-ID: PqwsvolAWURa0gwxuN3S5aQEWMcqiTxkIruNsjY2dJp21I+zqQtCj8qzYQZPi2muySAvy2rVMMCN
+ 32bDbq6OWPuBDiLlMG1dNT6OFoPVNgORCMQ1s6lrL5KBwwpFp3P8c8qllHDqqGsKDaiw5Z+CZl87
+ WBIZQBKrJdqgoTjD1opo493p/VCOJIUe2iBB8E5UkRuzNsYumLN0SOWnHTSSErWb4MSzo4M4e9WP
+ CnzigeOZOiLT+SzqqZ1A+40lMf1lHDoEvXR+/cMuD2OkhY6k6rdXdoT4/vwloufB4P7cv5jNmK46
+ Drs2Vxc4K72eeWG8rpw3mPvO/gdcnYWJ4vFGGuWBOXp8nHKe0R+FkIqN7hkDzfwR3m7FSLcf5bHl
+ i83HOiVZTF9qIXqnxjdaxVcW9Bnis/L5RJfxkhIgp8XOgK17oFCw4ex8jOQbjMWMw+uUAtYoyAWy
+ DYqvCy3xee00lUpTML3orRpz2syA1SDDWkhA1O3Z58YsoXYwq9CoAYSbbIka2GEje9hWYV9gcN9J
+ 1BKEGGiy4XWUYwgPsRDmGMzMIKwJsl5rPaLW26KSp9D8d7xo4PogOJ5M1Wv3iejASnCiaokfLY8j
+ oEOcN8AdfU1ir1A6q7peXxIKOVCXhq6K14ePQ8VuNrSyYu39ZxGo/ekWrBYsf6b4ZJHtY+ZApOGk
+ QSJxxajDy0ZdXZDSQOdHd7xo4PogOJ5M1Wv3iejASjsVuiRV0rD3jedF+7s+8JwvSHKdMwWaBtOx
+ 4nq6VwqpASJFC/49WOPBr5nlEUI4xF+08Xvjq559Bt/74u9nDUeCd5iXYJuZDVz9Fg6INCqeDTC7
+ FjsB0tKLS+SCI6fLrUGc7lbldfQJyQzGrbD5nlKQSzcpKUNAeUlLSlKU1J5wLVB2rQ5l1lgfHivJ
+ Dq32VS0Pq8tV0lZZEW/emcYhsFrvEyxwBnJEit16Zbn4cl4PMS+4ayUpOtEhdxekWDmK9g==
+X-Report-Abuse-To: spam@se-master.mail.hostserv.co.za
+
+--000000000000d8c6210570c868d8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Testing
+
+--=20
+
+
+
+Disclaimer - This e-mail is subject to UWC policies and e-mail=20
+disclaimer published on our website at:=C2=A0
+https://www.uwc.ac.za/Pages/emaildisclaimer.aspx=20
+<https://www.uwc.ac.za/Pages/emaildisclaimer.aspx>
+
+
+--000000000000d8c6210570c868d8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Testing<br></div>
+
+<br>
+<div><div><img src=3D"https://www.uwc.ac.za/Documents/UWCFooter.jpg"></div>=
+<div><span style=3D"font-family:Helvetica;font-size:12px"><br></span></div>=
+<div><span style=3D"font-family:Helvetica;font-size:12px">Disclaimer - This=
+ e-mail is subject to UWC policies and e-mail disclaimer published on our w=
+ebsite at:=C2=A0</span><a href=3D"https://www.uwc.ac.za/Pages/emaildisclaim=
+er.aspx" style=3D"font-family:Helvetica;font-size:12px" target=3D"_blank"><=
+span style=3D"color:rgb(0,105,217)">https://www.uwc.ac.za/<wbr>Pages/emaild=
+isclaimer.aspx</span></a></div></div>
+--000000000000d8c6210570c868d8--

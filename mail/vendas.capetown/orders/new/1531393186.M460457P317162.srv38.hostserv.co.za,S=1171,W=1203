@@ -1,0 +1,32 @@
+Return-Path: <vendasca@srv38.hostserv.co.za>
+Delivered-To: orders@vendas.capetown
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id mMrPGKI0R1vq1gQAvsAzXA
+	for <orders@vendas.capetown>; Thu, 12 Jul 2018 12:59:46 +0200
+Return-path: <vendasca@srv38.hostserv.co.za>
+Envelope-to: orders@vendas.capetown
+Delivery-date: Thu, 12 Jul 2018 12:59:46 +0200
+Received: from vendasca by srv38.hostserv.co.za with local (Exim 4.91)
+	(envelope-from <vendasca@srv38.hostserv.co.za>)
+	id 1fdZK6-001Mu6-8H
+	for orders@vendas.capetown; Thu, 12 Jul 2018 12:59:46 +0200
+To: orders@vendas.capetown
+Subject: Vendas In Cape Town Shirt order
+X-PHP-Script: www.vendas.capetown/order_results.php for 197.229.0.59
+X-PHP-Filename: /home/vendasca/public_html/order_results.php REMOTE_ADDR: 197.229.0.59
+From: ntanganedzeni06@gmail.com
+Reply-To: ntanganedzeni06@gmail.com
+X-Mailer: PHP/7.1.19
+Message-Id: <E1fdZK6-001Mu6-8H@srv38.hostserv.co.za>
+Date: Thu, 12 Jul 2018 12:59:46 +0200
+
+An order has been received. The order details are below:
+
+Name: Mulaudzi ipfilawe
+Contact: 0761064373
+Email: ntanganedzeni06@gmail.com
+Location: Goodwood
+Size: medium
+Colour: black
+Price: R180
+

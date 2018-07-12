@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: vendasca@srv38.hostserv.co.za
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id 0DF6KesQR1se3DcAvsAzXA
+	for <vendasca@srv38.hostserv.co.za>; Thu, 12 Jul 2018 10:27:23 +0200
+Return-path: <>
+Envelope-to: vendasca@srv38.hostserv.co.za
+Delivery-date: Thu, 12 Jul 2018 10:27:23 +0200
+Received: from anteater.oak.relay.mailchannels.net ([23.83.215.3]:16615)
+	by srv38.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fdWwa-00FOAE-TS
+	for vendasca@srv38.hostserv.co.za; Thu, 12 Jul 2018 10:27:23 +0200
+Received: by relay.mailchannels.net (Postfix)
+	id 8925C282329; Thu, 12 Jul 2018 08:26:37 +0000 (UTC)
+Date: Thu, 12 Jul 2018 08:26:37 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: vendasca@srv38.hostserv.co.za
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7EDB32822EA.1531383997/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20180712082637.8925C282329@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "srv38.hostserv.co.za",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance,
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [23.83.215.3 listed in list.dnswl.org]
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--7EDB32822EA.1531383997/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<d@h.com>: Host or domain name not found. Name service error for name=h.com
+    type=A: Host not found
+
+--7EDB32822EA.1531383997/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: 7EDB32822EA
+X-Postfix-Sender: rfc822; vendasca@srv38.hostserv.co.za
+Arrival-Date: Thu, 12 Jul 2018 08:26:37 +0000 (UTC)
+
+Final-Recipient: rfc822; d@h.com
+Original-Recipient: rfc822;d@h.com
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=h.com type=A: Host not found
+
+--7EDB32822EA.1531383997/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <vendasca@srv38.hostserv.co.za>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 7EDB32822EA
+	for <d@h.com>; Thu, 12 Jul 2018 08:26:37 +0000 (UTC)
+Received: from srv38.hostserv.co.za (unknown [100.96.29.47])
+	(Authenticated sender: webafrica)
+	by relay.mailchannels.net (Postfix) with ESMTPA id B7A00281A6E
+	for <d@h.com>; Thu, 12 Jul 2018 08:26:36 +0000 (UTC)
+X-Sender-Id: webafrica|x-authuser|vendasca@srv38.hostserv.co.za
+Received: from srv38.hostserv.co.za (srv38.hostserv.co.za [41.185.8.138])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:2500 (trex/5.16.1);
+	Thu, 12 Jul 2018 08:26:37 +0000
+X-MC-Relay: Good
+X-MailChannels-SenderId: webafrica|x-authuser|vendasca@srv38.hostserv.co.za
+X-MailChannels-Auth-Id: webafrica
+X-Abiding-Whistle: 21b0dec7525303ca_1531383997387_434528120
+X-MC-Loop-Signature: 1531383997387:3805951977
+X-MC-Ingress-Time: 1531383997386
+Received: from vendasca by srv38.hostserv.co.za with local (Exim 4.91)
+	(envelope-from <vendasca@srv38.hostserv.co.za>)
+	id 1fdWvp-00FO5x-1m
+	for d@h.com; Thu, 12 Jul 2018 10:26:33 +0200
+To: d@h.com
+Subject: Vendas In Cape Town Shirt order
+X-PHP-Script: vendas.capetown/order_results.php for 196.11.235.238
+X-PHP-Filename: /home/vendasca/public_html/order_results.php REMOTE_ADDR: 196.11.235.238
+From: d@h.com
+Reply-To: d@h.com
+X-Mailer: PHP/7.1.19
+Message-Id: <E1fdWvp-00FO5x-1m@srv38.hostserv.co.za>
+Date: Thu, 12 Jul 2018 10:26:33 +0200
+X-AuthUser: vendasca@srv38.hostserv.co.za
+
+Thank you for placing an order with us. Your order has been received and below is the copy of your order:
+
+Name: Nelwamondo
+Contact: 55555777
+Email: d@h.com
+Location: Cape Town CBD
+Size: extralarge
+Colour: black
+Price: R180
+
+
+Direct all queries to: orders@vendas.capetown
+
+
+Disclaimer
+
+This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+
+
+
+
+--7EDB32822EA.1531383997/relay.mailchannels.net--

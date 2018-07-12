@@ -1,0 +1,146 @@
+Return-Path: <>
+Delivered-To: vendasca@srv38.hostserv.co.za
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id wHRMC4wFR1sinjMAvsAzXA
+	for <vendasca@srv38.hostserv.co.za>; Thu, 12 Jul 2018 09:38:52 +0200
+Return-path: <>
+Envelope-to: vendasca@srv38.hostserv.co.za
+Delivery-date: Thu, 12 Jul 2018 09:38:52 +0200
+Received: from beetle.dogwood.relay.mailchannels.net ([23.83.211.15]:13319)
+	by srv38.hostserv.co.za with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fdWBa-00EK8W-U2
+	for vendasca@srv38.hostserv.co.za; Thu, 12 Jul 2018 09:38:52 +0200
+Received: by relay.mailchannels.net (Postfix)
+	id 0C71F3E2552; Thu, 12 Jul 2018 07:38:03 +0000 (UTC)
+Date: Thu, 12 Jul 2018 07:38:03 +0000 (UTC)
+From: MAILER-DAEMON@mailchannels.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: vendasca@srv38.hostserv.co.za
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="A70FB3E25C5.1531381083/relay.mailchannels.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20180712073803.0C71F3E2552@relay.mailchannels.net>
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "srv38.hostserv.co.za",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This is the mail system at host relay.mailchannels.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance,
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [23.83.211.15 listed in list.dnswl.org]
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--A70FB3E25C5.1531381083/relay.mailchannels.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host relay.mailchannels.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<nelwamondom123@gmail.com>: host alt1.gmail-smtp-in.l.google.com[74.125.126.27]
+    said: 421-4.7.0 This message does not have authentication information or
+    fails to pass 421-4.7.0 authentication checks. To best protect our users
+    from spam, the 421-4.7.0 message has been blocked. Please visit 421-4.7.0
+    https://support.google.com/mail/answer/81126#authentication for more 421
+    4.7.0 information. j185-v6si2630773itb.69 - gsmtp (in reply to end of DATA
+    command)
+
+--A70FB3E25C5.1531381083/relay.mailchannels.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; relay.mailchannels.net
+X-Postfix-Queue-ID: A70FB3E25C5
+X-Postfix-Sender: rfc822; vendasca@srv38.hostserv.co.za
+Arrival-Date: Thu, 12 Jul 2018 00:53:56 +0000 (UTC)
+
+Final-Recipient: rfc822; nelwamondom123@gmail.com
+Original-Recipient: rfc822;nelwamondom123@gmail.com
+Action: failed
+Status: 4.7.0
+Remote-MTA: dns; alt1.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 421-4.7.0 This message does not have authentication
+    information or fails to pass 421-4.7.0 authentication checks. To best
+    protect our users from spam, the 421-4.7.0 message has been blocked. Please
+    visit 421-4.7.0
+    https://support.google.com/mail/answer/81126#authentication for more 421
+    4.7.0 information. j185-v6si2630773itb.69 - gsmtp
+
+--A70FB3E25C5.1531381083/relay.mailchannels.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <vendasca@srv38.hostserv.co.za>
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id A70FB3E25C5
+	for <nelwamondom123@gmail.com>; Thu, 12 Jul 2018 00:53:56 +0000 (UTC)
+Received: from srv38.hostserv.co.za (unknown [100.96.28.195])
+	(Authenticated sender: webafrica)
+	by relay.mailchannels.net (Postfix) with ESMTPA id B5D4D3E0DCB
+	for <nelwamondom123@gmail.com>; Thu, 12 Jul 2018 00:53:55 +0000 (UTC)
+X-Sender-Id: webafrica|x-authuser|vendasca@srv38.hostserv.co.za
+Received: from srv38.hostserv.co.za (srv38.hostserv.co.za [41.185.8.138])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:2500 (trex/5.16.1);
+	Thu, 12 Jul 2018 00:53:56 +0000
+X-MC-Relay: Junk
+X-MailChannels-SenderId: webafrica|x-authuser|vendasca@srv38.hostserv.co.za
+X-MailChannels-Auth-Id: webafrica
+X-Unite-Spicy: 5cf4ac4902b850a8_1531356836390_358029865
+X-MC-Loop-Signature: 1531356836389:4013768411
+X-MC-Ingress-Time: 1531356836389
+Received: from vendasca by srv38.hostserv.co.za with local (Exim 4.91)
+	(envelope-from <vendasca@srv38.hostserv.co.za>)
+	id 1fdPrj-005u2n-MI
+	for nelwamondom123@gmail.com; Thu, 12 Jul 2018 02:53:51 +0200
+To: nelwamondom123@gmail.com
+Subject: VICT Shirt order
+X-PHP-Script: vendas.capetown/order_results.php for 196.11.235.238
+X-PHP-Filename: /home/vendasca/public_html/order_results.php REMOTE_ADDR: 196.11.235.238
+From: nelwamondom@gmail.com
+Reply-To: nelwamondom@gmail.com
+X-Mailer: PHP/7.1.19
+Message-Id: <E1fdPrj-005u2n-MI@srv38.hostserv.co.za>
+Date: Thu, 12 Jul 2018 02:53:51 +0200
+X-AuthUser: vendasca@srv38.hostserv.co.za
+
+A new order has been received. The order details are below.
+
+Name: Testing
+Contact: 111111111
+Email: nelwamondom@gmail.com
+Location: Athlone
+Size: extrasmall
+Colour: black
+
+
+--A70FB3E25C5.1531381083/relay.mailchannels.net--

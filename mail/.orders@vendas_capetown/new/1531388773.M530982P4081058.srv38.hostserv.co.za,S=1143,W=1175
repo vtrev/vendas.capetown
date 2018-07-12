@@ -1,0 +1,32 @@
+Return-Path: <vendasca@srv38.hostserv.co.za>
+Delivered-To: orders@vendas.capetown
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id UFbqHmUjR1uiRT4AvsAzXA
+	for <orders@vendas.capetown>; Thu, 12 Jul 2018 11:46:13 +0200
+Return-path: <vendasca@srv38.hostserv.co.za>
+Envelope-to: orders@vendas.capetown
+Delivery-date: Thu, 12 Jul 2018 11:46:13 +0200
+Received: from vendasca by srv38.hostserv.co.za with local (Exim 4.91)
+	(envelope-from <vendasca@srv38.hostserv.co.za>)
+	id 1fdYAv-00HLjp-Ck
+	for orders@vendas.capetown; Thu, 12 Jul 2018 11:46:13 +0200
+To: orders@vendas.capetown
+Subject: Vendas In Cape Town Shirt order
+X-PHP-Script: vendas.capetown/order_results.php for 197.229.0.80
+X-PHP-Filename: /home/vendasca/public_html/order_results.php REMOTE_ADDR: 197.229.0.80
+From: mphongwenda@gmail.com
+Reply-To: mphongwenda@gmail.com
+X-Mailer: PHP/7.1.19
+Message-Id: <E1fdYAv-00HLjp-Ck@srv38.hostserv.co.za>
+Date: Thu, 12 Jul 2018 11:46:13 +0200
+
+An order has been received. The order details are below:
+
+Name: Mpho
+Contact: 0766345621
+Email: mphongwenda@gmail.com
+Location: Khayelitsha
+Size: small
+Colour: blue
+Price: R180
+

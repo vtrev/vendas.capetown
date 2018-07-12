@@ -1,0 +1,32 @@
+Return-Path: <vendasca@srv38.hostserv.co.za>
+Delivered-To: orders@vendas.capetown
+Received: from srv38.hostserv.co.za
+	by srv38.hostserv.co.za with LMTP id UNi9FGwOR1v3sTYAvsAzXA
+	for <orders@vendas.capetown>; Thu, 12 Jul 2018 10:16:44 +0200
+Return-path: <vendasca@srv38.hostserv.co.za>
+Envelope-to: orders@vendas.capetown
+Delivery-date: Thu, 12 Jul 2018 10:16:44 +0200
+Received: from vendasca by srv38.hostserv.co.za with local (Exim 4.91)
+	(envelope-from <vendasca@srv38.hostserv.co.za>)
+	id 1fdWmK-00FIex-8U
+	for orders@vendas.capetown; Thu, 12 Jul 2018 10:16:44 +0200
+To: orders@vendas.capetown
+Subject: Vendas In Cape Town Shirt order
+X-PHP-Script: vendas.capetown/order_results.php for 196.11.235.238
+X-PHP-Filename: /home/vendasca/public_html/order_results.php REMOTE_ADDR: 196.11.235.238
+From: mnelwamondo@uwc.ac.za
+Reply-To: mnelwamondo@uwc.ac.za
+X-Mailer: PHP/7.1.19
+Message-Id: <E1fdWmK-00FIex-8U@srv38.hostserv.co.za>
+Date: Thu, 12 Jul 2018 10:16:44 +0200
+
+An order has been received. The order details are below:
+
+Name: Nelwamondo
+Contact: 55555777
+Email: mnelwamondo@uwc.ac.za
+Location: Cape Town CBD
+Size: extralarge
+Colour: black
+Price: R180
+
