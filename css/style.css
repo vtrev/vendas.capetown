@@ -71,6 +71,10 @@ footer i {
   color: white;
 }
 
+footer a {
+  color: aqua
+}
+
 #love::before {
   content: '\2665';
 }
