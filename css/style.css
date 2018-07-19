@@ -1,0 +1,81 @@
+/* Global styles */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.content-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background-color: #02020B;
+  height: 56px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+#contact {
+  margin-top: -25px;
+}
+
+/* Page middle */
+
+.order-form {
+  background-color: white;
+}
+
+.track-order {
+  background-color: darkgray;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+  color: white;
+  background-color: #02020B;
+  text-align: center;
+}
+
+footer i {
+  font-size: 26px;
+  color: white;
+}
+
+#love::before {
+  content: '\2665';
+}
+
+#love {
+  color: red;
+  font-size: 20px;
+}
