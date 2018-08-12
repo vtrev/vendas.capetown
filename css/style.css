@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 *,
@@ -18,25 +18,43 @@ body {
 .content-wrapper {
   max-width: 960px;
   margin: 0 auto;
-  padding: 60px 50px;
+  padding: 90px 50px;
   overflow: auto;
 }
-
+.inline-block{
+  display: inline-block;
+}
 a {
   text-decoration: none;
 }
 
-nav {
-  width: 100%;
-  background-color: #02020B;
-  height: 56px;
+/* HEADER */
+.header-wrapper{
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+#logo{
+  width: 50%;
+  padding-bottom: 15px;
+
+}
+#nav{
+  background-color: darkgray;
+  position: fixed;
+  top:0;
+}
+.links a{
+  padding: 20 35;
+  margin-top: 0px;
+  font-size: 25px;
+  border-left: 1px solid gray;
+}
+.links a:hover{
+  background: cyan;
+  /* border-radius: 10px; */
+
 }
 
-nav a {
-  display: inline-block;
-  padding: 15px 20px;
-  color: white;
-}
 
 .center {
   text-align: center;
