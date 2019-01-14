@@ -1,0 +1,53 @@
+/* Custom styles and materialize override */
+
+
+/* Global styles */
+
+/* Navigation */
+.brand-logo img {
+    width: 30%;
+    position: relative;
+    top: 7px;
+}
+
+/* Side navigation */
+.sidenav {
+    width: 70%;
+}
+
+
+
+
+/*  carousel */
+.carousel-item img {
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+}
+
+/* card */
+/* card-image */
+.card-image img {
+    height: 400px;
+}
+
+.categories .card {
+    width: 90%;
+}
+
+/* Mobile width */
+@media only screen and (max-width: 600px) {
+    .brand-logo {
+        width: 100%;
+    }
+
+    .categories .card img {
+        height: 280px;
+    }
+
+    .categories .card {
+        position: relative;
+        left: 15px;
+
+    }
+}

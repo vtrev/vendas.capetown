@@ -1,64 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Vendas In CapeTown | Home</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/simple-grid.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-
-
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/materialize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VICT | Home </title>
 </head>
 
 <body>
-  
-  <div class="row inline-block" id="nav">
-      <div class="header-wrapper">
-    <div  class="col-4"><img id="logo" src="img/VendasInCapeTown.png"></div>
-    
-    <div class="col-8 links inline-block">
-      <a href="#home">Home</a>
-      <a href="#track-order">Track Order</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="#about">About</a>
+
+    <!-- Navigation -->
+    <nav class="blue-grey lighten-2">
+        <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><img src="./img/logo.png" alt=""></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+
+                <div class="background">
+                    <img src="./img/gal5.jpg">
+                </div>
+                <br>
+                <a href="#user"><img class="circle" src="./img/flag.svg"></a>
+                <br>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">cloud</i>Track Order</a></li>
+        <li><a href="#!"><i class="material-icons">image</i>Gallery</a></li>
+
+        <li><a href="#!"><i class="material-icons">info</i>About us</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <!-- <li><a class="subheader">Subheader</a></li> -->
+    </ul>
+
+    <!-- content -->
+    <br><br><br>
+    <div class="container">
+        <div class="row categories">
+
+            <div class="col s12 m6">
+
+                <div class="card blue-grey lighten-2">
+                    <div class="card-image">
+                        <img src="./img/caps.png" alt="">
+                        <span class="card-title">Caps</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light blue">
+                            <i class="material-icons">shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p>Gebisi dza manakanaka blah blah blah Gebisi dza manakanaka blah blah blah Gebisi dza
+                            manakanaka blah blah blah </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+
+                <div class="card blue-grey lighten-2">
+                    <div class="card-image">
+                        <img src="./img/tshirts.png" alt="">
+                        <span class="card-title black-text">T-shirts</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light blue">
+                            <i class="material-icons">shopping_cart</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p>Zwikipa zwa manakanaka blah blah blah Zwikipa zwa manakanaka blah blah blah Zwikipa zwa
+                            manakanaka blah blah blah </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+    <div class="row">
+        <h3 class="center">Gallery</h3>
+        <!-- Gallery -->
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="./img/gal0.png"></a>
+            <a class="carousel-item" href="#two!"><img src="./img/gal1.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="./img/gal3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="./img/gal4.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="./img/gal5.jpg"></a>
+        </div>
+        <br><br><br><br><br><br><br>
     </div>
-  </div>
 
-  <section class="order-form">
-    <div class="content-wrapper">
-      <h1>MAIN CONTENT HERE,ORDERING FORM AND ALL THAT SHIT</h1>
-      <p>Wow I really crononberg'd up the whole place huh Morty, just a bunch a cronenbergs walkin around. Oh, that's Million
-        Ants. I can't see the ants from over here, I just assumed that was um.. Turd Man, Wiggly Turd Man. Mind your own
-        goddamn business, Gene! I'm having a conversation with my mother here! Kissing Rick's ass isn't gonna make him stay,
-        Mom, but it will help you lose everyone else. Listen, Morty, I hate to break it to you but what people call love
-        is just a chemical reaction that compels animals to breed.</p>
-    </div>
-  </section>
-  <section id="track-order" class="track-order center">
-    <h1>Order tracking stuff here</h1>
-  </section>
-  <footer id="contact">
-    <div class="content-wrapper">
-      <h2>Let's Get in Touch!</h2>
+    <!-- JavaScript -->
 
-      <!-- Social media and contact links-->
-      <div class="contact-info">
-        <a href="mailto:">info@vendas.capetown</a>
-
-      </div>
-
-      <p>With
-        <span id="love"></span> 2018 V.I.C.T</p>
-      <a href="#" target="_blank">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-    </div>
-  </footer>
-
+    <script src="./js/script.js"></script>
+    <script src="./js/material.js"></script>
 </body>
 
 </html>
